@@ -1,7 +1,7 @@
 # EXPERIMENT--01-ALP-FOR-8086
-Name : ANUBHARATHI SS
-Roll no : 212223040017
-Date of experiment : 29.08.2025
+### Name : ANUBHARATHI SS
+### Roll no : 212223040017
+### Date of experiment : 29.08.2025
 
 
 
@@ -231,6 +231,7 @@ HLT
 
 
 ## Result :
+Thus the program was executed successfully.
  
 
 
