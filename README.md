@@ -143,6 +143,92 @@ HLT
 ## Output  
 <img width="1920" height="1080" alt="Screenshot (223)" src="https://github.com/user-attachments/assets/ee68a208-7d78-4a92-8664-5268c323281f" />
 
+## Logic operation
+## AND 
+```
+MOV AX,[3001H]
+MOV BX,[3003H]
+AND AX,BX
+MOV [3005H],AX
+HLT
+
+```
+## OUTPUT
+<img width="1920" height="1080" alt="Screenshot (224)" src="https://github.com/user-attachments/assets/127ff750-998d-4d3b-b43f-92dca8f44f4b" />
+
+## NAND 
+```
+MOV AX,[3001H]
+MOV BX,[3003H]
+AND AX,BX
+NOT AX
+MOV [3005H],AX
+HLT
+```
+## OUTPUT
+<img width="1920" height="1080" alt="Screenshot (225)" src="https://github.com/user-attachments/assets/7dd3c789-bea1-43f0-8b17-158c00b04a6d" />
+
+## OR 
+```
+MOV AX,[3001H]
+MOV BX,[3003H]
+OR AX,BX
+MOV [3005H],AX
+HLT
+
+```
+## OUTPUT
+<img width="1920" height="1080" alt="Screenshot (214)" src="https://github.com/user-attachments/assets/36ce5023-4c03-441a-b8f9-74b892c173bf" />
+
+## NOR
+```
+MOV AX,[3001H]
+MOV BX,[3003H]
+OR AX,BX
+NOT AX
+MOV [3005H],AX
+HLT
+
+```
+## OUTPUT
+<img width="1920" height="1080" alt="Screenshot (226)" src="https://github.com/user-attachments/assets/76c3dcbc-32b7-4b40-8a92-7e4a2ffb2b30" />
+
+## NOT
+```
+MOV AX,[3001H]
+NOT AX
+MOV [3003H],AX
+HLT
+
+```
+## OUTPUT
+<img width="1920" height="1080" alt="Screenshot (217)" src="https://github.com/user-attachments/assets/99b24c7f-e245-4c90-95f1-32ed260a894e" />
+
+## XOR
+```
+MOV AX,[3001H]
+MOV BX,[3003H]
+XOR AX,BX
+MOV [3005H],AX
+HLT
+
+```
+## OUTPUT
+<img width="1920" height="1080" alt="Screenshot (227)" src="https://github.com/user-attachments/assets/1bbc6b73-fe8f-4c08-a3ae-3de33ab6441e" />
+
+## XNOR
+```
+MOV AX,[3001H]
+MOV BX,[3003H]
+XOR AX,BX
+NOT AX
+MOV [3005H],AX
+HLT
+```
+## OUTPUT
+<img width="1920" height="1080" alt="Screenshot (218)" src="https://github.com/user-attachments/assets/b8280b6d-3176-4b1a-95bb-348305322af4" />
+
+
 
 ## Result :
  
